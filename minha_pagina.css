@@ -1,15 +1,20 @@
-.navbar ul {
+    .corpo{
+    background-color: rgb(123, 180, 123);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+    .navbar ul {
+    position: fixed;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    width: 100%;
   }
-  
- .navbar li {
+  .navbar li {
     float: left;
   }
-  
   .navbar li a {
     display: block;
     color: white;
